@@ -9,5 +9,5 @@ import Foundation
 
 struct OtherNameModel : Codable, Identifiable{
     var id = UUID()
-    let otherName : String
+    let otherName : [String]
 }

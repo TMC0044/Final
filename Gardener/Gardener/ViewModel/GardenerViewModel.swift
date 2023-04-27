@@ -12,8 +12,7 @@ class GardenerViewModel : ObservableObject {
     @Published var hasError = false
     @Published var error : GardenerModelError?
     private let url =
-        "https://perenual.com/api/species-list?page=1&key=sk-HZzH6447a831c07df612"
-
+"https://perenual.com/api/species-list?key=sk-JT0f6449cc5e1d2b8612&page=22"
 @MainActor
 func fetchData() async {
     if let url = URL(string: url) {
@@ -26,6 +25,7 @@ func fetchData() async {
             }
             self.gardenerData = results.data
         } catch {
+            print(error)
             self.hasError.toggle()
             self.error = GardenerModelError.customError(error: error)
         }

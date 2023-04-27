@@ -19,10 +19,10 @@ struct GardenerResults : Codable {
 struct GardenerModel : Codable, Identifiable {
     let id : Int
     let common_name : String
-    let scientific_name : [ScientificNameModel]
-    let other_name : [OtherNameModel]
+    let scientific_name : [String]
+    let other_name : [String]
     let cycle : String
     let watering : String
-    let sunlight : String
-    let default_image : [GardenerImageModel]
+    let sunlight : [String]
+    let default_image : GardenerImageModel
 }

@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "background.jpeg",
+      "filename" : "assorted-color-rose-flowers.jpeg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "background@2x.jpeg",
+      "filename" : "assorted-color-rose-flowers@2x.jpeg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "background@3x.jpeg",
+      "filename" : "assorted-color-rose-flowers@3x.jpeg",
       "idiom" : "universal",
       "scale" : "3x"
     }

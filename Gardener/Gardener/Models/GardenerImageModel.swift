@@ -10,7 +10,7 @@ import Foundation
 
 
 struct GardenerImageModel : Codable, Identifiable {
-    var id = UUID()
+    let id = UUID()
     let license : Int
     let license_name : String
     let license_url : String

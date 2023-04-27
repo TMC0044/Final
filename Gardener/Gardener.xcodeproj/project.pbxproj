@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE23FA3129F7D9EA006FBEB6 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE23FA3029F7D9EA006FBEB6 /* Main.swift */; };
+		DE064B9029FA02BA00FE6093 /* NotePad.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE064B8F29FA02BA00FE6093 /* NotePad.swift */; };
 		DE2A439429F632F20017C472 /* GardenerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2A439329F632F20017C472 /* GardenerApp.swift */; };
 		DE2A439829F632F40017C472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE2A439729F632F40017C472 /* Assets.xcassets */; };
 		DE2A439B29F632F40017C472 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE2A439A29F632F40017C472 /* Preview Assets.xcassets */; };
-		DE2A43C729F6356E0017C472 /* Gardener.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2A43C629F6356E0017C472 /* Gardener.swift */; };
+		DE2A43C729F6356E0017C472 /* PlantList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2A43C629F6356E0017C472 /* PlantList.swift */; };
 		DE2A43C929F635DC0017C472 /* GardenerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2A43C829F635DC0017C472 /* GardenerModel.swift */; };
 		DE2A43CC29F636370017C472 /* GardenerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2A43CB29F636370017C472 /* GardenerViewModel.swift */; };
+		DE4CD3A629F884BF008BCE17 /* TextDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4CD3A529F884BF008BCE17 /* TextDisplay.swift */; };
 		DE6DD11829F76EC9003FE06F /* GardenerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6DD11729F76EC9003FE06F /* GardenerDetail.swift */; };
 		DE6DD11A29F77282003FE06F /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6DD11929F77282003FE06F /* ImageView.swift */; };
 		DE6DD11C29F772FE003FE06F /* GardenerImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6DD11B29F772FE003FE06F /* GardenerImageModel.swift */; };
-		DE6DD12029F7903B003FE06F /* OtherNameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6DD11F29F7903B003FE06F /* OtherNameModel.swift */; };
-		DE6DD12229F7904B003FE06F /* ScientificNameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6DD12129F7904B003FE06F /* ScientificNameModel.swift */; };
+		DED955EE29F942100040E3E7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED955ED29F942100040E3E7 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,21 +39,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DE23FA3029F7D9EA006FBEB6 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		DE064B8F29FA02BA00FE6093 /* NotePad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotePad.swift; sourceTree = "<group>"; };
 		DE2A439029F632F20017C472 /* Gardener.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gardener.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE2A439329F632F20017C472 /* GardenerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenerApp.swift; sourceTree = "<group>"; };
 		DE2A439729F632F40017C472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE2A439A29F632F40017C472 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DE2A43A029F632F40017C472 /* GardenerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GardenerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE2A43AA29F632F40017C472 /* GardenerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GardenerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE2A43C629F6356E0017C472 /* Gardener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Gardener.swift; path = ../../Gardener.swift; sourceTree = "<group>"; };
+		DE2A43C629F6356E0017C472 /* PlantList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlantList.swift; path = ../../PlantList.swift; sourceTree = "<group>"; };
 		DE2A43C829F635DC0017C472 /* GardenerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenerModel.swift; sourceTree = "<group>"; };
 		DE2A43CB29F636370017C472 /* GardenerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenerViewModel.swift; sourceTree = "<group>"; };
+		DE4CD3A529F884BF008BCE17 /* TextDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDisplay.swift; sourceTree = "<group>"; };
 		DE6DD11729F76EC9003FE06F /* GardenerDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenerDetail.swift; sourceTree = "<group>"; };
 		DE6DD11929F77282003FE06F /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		DE6DD11B29F772FE003FE06F /* GardenerImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenerImageModel.swift; sourceTree = "<group>"; };
-		DE6DD11F29F7903B003FE06F /* OtherNameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherNameModel.swift; sourceTree = "<group>"; };
-		DE6DD12129F7904B003FE06F /* ScientificNameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScientificNameModel.swift; sourceTree = "<group>"; };
+		DED955ED29F942100040E3E7 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,10 +104,12 @@
 			children = (
 				DE2A439329F632F20017C472 /* GardenerApp.swift */,
 				DE2A43CA29F6360A0017C472 /* ViewModel */,
-				DE2A43C029F634990017C472 /* Models */,
 				DE2A43BF29F6348F0017C472 /* Views */,
+				DE2A43C029F634990017C472 /* Models */,
 				DE2A439729F632F40017C472 /* Assets.xcassets */,
 				DE2A439929F632F40017C472 /* Preview Content */,
+				DED955ED29F942100040E3E7 /* Home.swift */,
+				DE064B8F29FA02BA00FE6093 /* NotePad.swift */,
 			);
 			path = Gardener;
 			sourceTree = "<group>";
@@ -123,10 +125,10 @@
 		DE2A43BF29F6348F0017C472 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				DE23FA3029F7D9EA006FBEB6 /* Main.swift */,
-				DE2A43C629F6356E0017C472 /* Gardener.swift */,
+				DE2A43C629F6356E0017C472 /* PlantList.swift */,
 				DE6DD11729F76EC9003FE06F /* GardenerDetail.swift */,
 				DE6DD11929F77282003FE06F /* ImageView.swift */,
+				DE4CD3A529F884BF008BCE17 /* TextDisplay.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -135,8 +137,6 @@
 			isa = PBXGroup;
 			children = (
 				DE2A43C829F635DC0017C472 /* GardenerModel.swift */,
-				DE6DD12129F7904B003FE06F /* ScientificNameModel.swift */,
-				DE6DD11F29F7903B003FE06F /* OtherNameModel.swift */,
 				DE6DD11B29F772FE003FE06F /* GardenerImageModel.swift */,
 			);
 			path = Models;
@@ -281,13 +281,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE2A43CC29F636370017C472 /* GardenerViewModel.swift in Sources */,
-				DE2A43C729F6356E0017C472 /* Gardener.swift in Sources */,
-				DE23FA3129F7D9EA006FBEB6 /* Main.swift in Sources */,
+				DE2A43C729F6356E0017C472 /* PlantList.swift in Sources */,
+				DE4CD3A629F884BF008BCE17 /* TextDisplay.swift in Sources */,
+				DE064B9029FA02BA00FE6093 /* NotePad.swift in Sources */,
 				DE2A439429F632F20017C472 /* GardenerApp.swift in Sources */,
+				DED955EE29F942100040E3E7 /* Home.swift in Sources */,
 				DE6DD11829F76EC9003FE06F /* GardenerDetail.swift in Sources */,
 				DE6DD11A29F77282003FE06F /* ImageView.swift in Sources */,
-				DE6DD12229F7904B003FE06F /* ScientificNameModel.swift in Sources */,
-				DE6DD12029F7903B003FE06F /* OtherNameModel.swift in Sources */,
 				DE2A43C929F635DC0017C472 /* GardenerModel.swift in Sources */,
 				DE6DD11C29F772FE003FE06F /* GardenerImageModel.swift in Sources */,
 			);
